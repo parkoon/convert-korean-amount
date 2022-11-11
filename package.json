@@ -1,0 +1,36 @@
+{
+  "name": "convert-korean-amount",
+  "version": "1.0.0",
+  "description": "숫자를 만, 억, 조, 경 등 만 단위 한글로 변경",
+  "main": "lib/convert-korean-amount.js",
+  "types": "lib/convert-korean-amount.d.ts",
+  "scripts": {
+    "clean": "rimraf build/*",
+    "build": "npm run clean && npx tsc",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parkoon/convert-korean-amount.git"
+  },
+  "author": "devparkoon@gmail.com",
+  "license": "MIT",
+  "keywords": [
+    "korean",
+    "amount",
+    "price",
+    "convert"
+  ],
+  "bugs": {
+    "url": "https://github.com/parkoon/convert-korean-amount/issues"
+  },
+  "homepage": "https://github.com/parkoon/convert-korean-amount#readme",
+  "devDependencies": {
+    "@types/jest": "^29.2.2",
+    "jest": "^29.3.1",
+    "jest-cli": "^29.3.1",
+    "rimraf": "^3.0.2",
+    "ts-jest": "^29.0.3",
+    "typescript": "^4.8.4"
+  }
+}
